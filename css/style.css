@@ -1,0 +1,17 @@
+header{
+    height: 100px;
+    background-color: rgb(30, 132, 165);
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    position: relative;
+}
+
+header div{
+    width: 200px;
+    background-size: cover;
+    position: absolute;
+    bottom: 9px;
+    left: 5px;
+    
+}
+
