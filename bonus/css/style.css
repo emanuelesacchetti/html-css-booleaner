@@ -3,20 +3,20 @@ header{
     background-color: rgb(30, 132, 165);
     background-image: url(../img/pattern.png);
     background-size: contain;
-    position: relative;
 }
 
 header div{
     width: 200px;
     background-size: cover;
-    position: absolute;
-    bottom: 9px;
-    left: 5px;
+    margin-left: 20px;
+    line-height: 170px;
 }
+
 main, footer{
     margin: auto;
     width: 80%;
 }
+
 main h1{
     font-size: 50px;
     margin-bottom: 5px;
@@ -39,6 +39,11 @@ main h3{
 
 .blue{
     color: rgb(81, 170, 225);
+}
+
+.description{
+    font-size: 13px;
+    font-weight: 300;
 }
 
 section{
@@ -68,14 +73,19 @@ section{
     color: grey;
     margin-bottom: 13px;
 }
+.text_in_img{
+    line-height: 50px;
+    margin-left: 30px;
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+}
 
 .img_block{
     width: 400px;
     height: 300px;
-    font-weight: 600;
-    font-size: 30px;
-    color: white;
-    text-align: center;
+    
+    
 }
 
 #block_1{
