@@ -37,3 +37,52 @@ main h3{
 .blue{
     color: rgb(81, 170, 225);
 }
+
+section{
+    margin-bottom: 30px;
+}
+
+.cl_stretta{
+    width: 24%;
+}
+
+.cl_larga{
+    width: 49%;
+}
+
+.title_row{
+    color: white;
+    background-color: rgb(81, 170, 225);
+    text-align: left;
+}
+
+.blue_row{
+    background-color: lightblue;
+}
+
+.footer_text{
+    font-size: 20px;
+    color: grey;
+    margin-bottom: 13px;
+}
+
+.img_block{
+    width: 400px;
+    height: 300px;
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+#block_1{
+    background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#block_2{
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
